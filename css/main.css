@@ -1,183 +1,33 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-h1 {
-	margin: 0;
-	padding: 0;
+h1{margin:0;padding:0;}
+h1{font:35px Arvo, Serif;}
+h3{font:20px Oswald, sans-serif;margin:5px 0;padding:0;z-index:1;position:relative;}
+p{font-size:16px;}
+.navbar-brand, .navbar-default{text-decoration:none;font:bold 1.3em Wellfleet;color:#fff !important;}
+.navbar-toggle{color:#ffffff !important;border-color:transparent;}
+.navbar{background-color:rgba(0, 0, 0, 0.7);z-index:9999;border:0;line-height:2em !important;}
+.navbar li a{position:relative;text-decoration:none;font:12px Wellfleet, sans-serf;color:#fff !important;}
+.navbar-nav li a:hover{background:transparent !important;opacity:0.7;}
+.navbar-nav li.active a{color:#fff;border-bottom:2px solid #fff !important;background:transparent !important;}
+.quotes{font-family:'Goudy Bookletter 1911', serif;font-weight:normal;font-size:20px;text-align:left;margin:50px auto;}
+.author_name_white{font-family:"Wellfleet";margin:70px 0 0 75px;color:#fff;font-size:20px;}
+.author_name_gray{font-family:"Wellfleet";margin:70px 0 0 75px;color:#94a4a4;font-size:20px;}
+.quotes_container{width:800px;margin:0 auto;}
+#christmas_tree{width:48px;height:77px;margin:0 auto;position:relative;bottom:-35px;}
+#divider{background:url('../img/divider.png')no-repeat;width:300px;height:35px;margin:0px auto 27px auto;}
+#ribbon{background:url('../img/ribbon.png')no-repeat;width:251px;height:75px;margin:0 auto;display:block;position:relative;top:-45px;}
+#snowflakes1{background:url('../img/snowflakes.png')no-repeat;width:24px;height:21px;margin:0 auto;display:block;position:relative;bottom:-54px;left:-102px;}
+#snowflakes2{background:url('../img/snowflakes.png')no-repeat;width:24px;height:21px;margin:0 auto;display:block;position:relative;bottom:-33px;right:-100px;}
+#photography, #design{width:100%;color:#fff;padding:50px 50px 50px 50px;}
+.description{background-color:#fff;color:#333;margin:0 auto;padding:10px 50px 75px 50px;}
+#intro{background:url('../img/laptop-1.jpg') 50% 0 no-repeat fixed;color:#fff;height:600px;margin:0;padding-top:200px;padding-bottom:260px;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center;text-shadow:2px 2px #000;}
+#about{padding-top:50px;}
+#photography{background:url(../img/abstract-3.jpg) 50% 0 no-repeat fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+#design{background:url(../img/samsung-1.jpg) 50% 0 no-repeat fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+#contact{background-color:#333;color:#fff;margin:0 auto;padding:10px 50px 75px 50px;}
+footer{background-color:#fff;padding:25px 0;color:#333;margin:0 auto;font-size:14px;text-align:center;}
+@media screen and (min-width:768px){.navbar{letter-spacing:4px;height:80px;padding-top:15px;}
+h1{font-size:55px;}
+h3{font-size:25px;}
+.quotes{font-size:30px;}
+p{font-size:20px;}
 }
-
-
-h1 {
-	font: 35px Arvo, Serif;	
-}
-
-h3 {
-	font: 20px Oswald, sans-serif;
-	margin: 5px 0;
-	padding: 0;
-	z-index: 1;
-	position: relative;
-}
-
-p {
-	font-size: 16px;
-}
-
-.navbar-brand, .navbar-default {
-	text-decoration: none;
-	font: bold 1.3em Wellfleet;
-	color: #fff !important;
-}
-
-.navbar-toggle {
-	color: #ffffff !important;
-	border-color: transparent;
-}
-
-.navbar {
-	background-color: rgba(0, 0, 0, 0.7);
-	z-index: 9999;
-	border: 0;
-	line-height: 2em !important;
-}
-
-.navbar li a {
-	position: relative;
-	text-decoration: none;
-	font: 12px Wellfleet, sans-serf;
-	color: #fff !important;
-}
-
-.navbar-nav li a:hover {
-	background: transparent !important;
-	opacity: 0.7;
-}
-
-.navbar-nav li.active a {
-	color: #fff;
-	border-bottom: 2px solid #fff !important;
-	background: transparent !important;
-}
-
-.quotes {
-	font-family: 'Goudy Bookletter 1911', serif;
-	font-weight: normal;
-	font-size: 20px;
-	text-align: left;
-	margin: 50px auto;
-}
-
-.author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
-.author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
-.quotes_container { width: 800px; margin: 0 auto; }
-#christmas_tree { width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
-#divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
-#ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 75px; margin: 0 auto; display: block; position: relative; top: -45px; }
-#snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -54px; left: -102px; }
-#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -33px; right: -100px; }
-
-#photography, #design { 
-	width: 100%;
-	color: #fff;
-	padding: 50px 50px 50px 50px;
-}
-
-.description {
-background-color: #fff;
-color: #333;
-margin: 0 auto;
-padding: 10px 50px 75px 50px;
-}
-
-#intro {
-background:url('../img/laptop-1.jpg') 50% 0 no-repeat fixed;
-color: #fff;
-height: 600px;
-margin: 0;
-padding-top: 200px;
-padding-bottom: 260px;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-text-align: center;
-text-shadow: 2px 2px #000;
-}
-
-#about {
-	padding-top: 50px;
-}
-
-#photography{
-background: url(../img/abstract-3.jpg) 50% 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-#design{
-background: url(../img/samsung-1.jpg) 50% 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-#contact {
-	background-color: #333;
-	color: #fff;
-margin: 0 auto;
-padding: 10px 50px 75px 50px;
-}
-
-footer {
-	background-color: #fff;
-	padding: 25px 0;
-	color: #333;
-	margin: 0 auto;
-	font-size: 14px;
-	text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-	.navbar {
-		letter-spacing: 4px;
-		height: 80px;
-		padding-top: 15px;
-	}
-	
-	h1 {
-		font-size: 55px;	
-	}
-
-	h3 {
-		font-size: 25px;
-	}
-	
-	.quotes {
-		font-size: 30px;
-	}
-	
-	p {
-		font-size: 20px;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
